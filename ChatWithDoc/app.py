@@ -178,7 +178,3 @@ if st.button("Ask"):
                 st.markdown(f"**Document {i+1}:**")
                 st.markdown(doc.page_content)
                 st.markdown("---")
-
-# Footer
-st.markdown("---")
-st.markdown("Powered by Gemma AI | © 2024 CHATWITHDOCS AI")
