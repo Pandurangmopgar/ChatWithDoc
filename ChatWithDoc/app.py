@@ -16,8 +16,6 @@ import concurrent.futures
 load_dotenv()
 groq_api_key = os.getenv("GROQ_API_KEY")
 os.environ['GOOGLE_API_KEY'] = os.getenv('GOOGLE_API_KEY')
-UPSTASH_VECTOR_REST_URL = os.getenv("UPSTASH_VECTOR_REST_URL")
-UPSTASH_VECTOR_REST_TOKEN = os.getenv("UPSTASH_VECTOR_REST_TOKEN")
 
 # Custom CSS to style the app
 st.markdown("""
