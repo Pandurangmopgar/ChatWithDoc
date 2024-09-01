@@ -20,8 +20,9 @@ DocuChat AI is an intelligent multi-document assistant built with Streamlit. It 
 
 2. Create a virtual environment and activate it:
     ```sh
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    conda create -n myenv python=3.11.5
+
+    source myenv/bin/activate  # On Windows, use `myenv\Scripts\activate`
     ```
 
 3. Install the required dependencies:
