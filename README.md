@@ -10,6 +10,13 @@ DocuChat AI is an intelligent multi-document assistant built with Streamlit. It 
 - View response time for each query
 - Customizable app styling
 
+## Demo
+
+<video width="600" controls>
+  <source src="demo/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Installation
 
 1. Clone the repository:
@@ -49,3 +56,4 @@ DocuChat AI is an intelligent multi-document assistant built with Streamlit. It 
 3. Enter your question in the main panel and click "Ask" to get your answer.
 
 ## Project Structure
+
